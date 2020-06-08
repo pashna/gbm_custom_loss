@@ -1,5 +1,5 @@
 import numpy as np
-from gbm_custom_loss.piecewise_loss.piecewise_mse import PiecewiseMSE
+from gbm_custom_loss.catboost.piecewise_loss.piecewise_mse import PiecewiseMSE
 
 
 class BiasedPiecewiseRMSE(PiecewiseMSE):

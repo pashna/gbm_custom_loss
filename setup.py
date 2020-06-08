@@ -22,7 +22,7 @@ packages = [PKG_NAME] + [PKG_NAME + '.' + pkg for pkg in find_packages(PKG_NAME)
 print(packages)
 
 setup(name=PKG_NAME,
-      version='0.0.1',
+      version='0.0.2',
       description='GBM Custom Loss',
       author='Pavel Kochetkov',
       author_email='p02p@ya.ru',

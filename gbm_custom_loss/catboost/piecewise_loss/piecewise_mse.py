@@ -1,5 +1,5 @@
 import numpy as np
-from gbm_custom_loss.piecewise_loss.piecewise_objective import PiecewiseObjective
+from gbm_custom_loss.catboost.piecewise_loss.piecewise_objective import PiecewiseObjective
 
 
 class PiecewiseMSE(PiecewiseObjective):
