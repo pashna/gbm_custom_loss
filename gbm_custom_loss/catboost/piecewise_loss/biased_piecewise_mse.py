@@ -2,7 +2,7 @@ import numpy as np
 from gbm_custom_loss.catboost.piecewise_loss.piecewise_mse import PiecewiseMSE
 
 
-class BiasedPiecewiseRMSE(PiecewiseMSE):
+class BiasedPiecewiseMSE(PiecewiseMSE):
     """
     Class defines loss function according to CatBoost API
     https://catboost.ai/docs/concepts/python-usages-examples.html#user-defined-loss-function
