@@ -5,6 +5,8 @@ For example, when you predict expected time of arrival for food delivery plaform
 
 This repo has implementations of a few handy custom loss funcitons for GBM (at the moment, Catboost only), to tackle this problem
 
+You could learn more of how we use this loss in production in this [medium post](https://towardsdatascience.com/byol-bring-your-own-loss-c5292cb8e9e3)
+
 
 ## Installation
 ```
